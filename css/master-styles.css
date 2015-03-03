@@ -104,12 +104,29 @@ nav a:hover {
 	margin: 10% 0%;
 }
 
-.stripe:nth-child(odd)	{
+.stripe:nth-child(even)	{
 	background-color: #F3F3F3;
 }
 
 
+.left-col	{
+	float: left;
+	width: 500px;
+	margin: 50px 104px 50px 0px;
+}
 
+.right-col	{
+	float: left;
+	width: 500px;
+	margin: 50px 0px;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 /**** Begin Typography Definitions ****/
@@ -167,4 +184,47 @@ p.small {
 }
 
 
+.pl-head {
+	color: #159766;
+	border-bottom: 1px solid #dedddd;
+	padding-bottom: 15px;
+}
 
+.stripe ul {
+	margin: 50px 0px;
+	padding: 0px;
+}
+
+.type-cards li {
+	display: inline-block;
+	float: left;
+	width: 134px;
+	height: 175px;
+	border: 1px solid #D8D8D8;
+	padding: 20px;
+	margin: 10px 20px 10px 0px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 76px;
+	text-align: center;
+}
+/*
+
+.family-name {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background-color: #F3F3F3;
+	font-weight: 11px;
+	line-height: 15px;
+	text-align: center;
+}
+
+  */
