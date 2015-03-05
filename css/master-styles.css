@@ -202,7 +202,7 @@ p.small {
 }
 
 
-
+/*
 .alert-head {
 	font-size: 20px;
 	line-height: 28px;
@@ -215,7 +215,7 @@ p.small {
 	line-height: 22px;
 	font-style: italic;
 	color: #fff;
-}
+}*/
 
 
 .pl-head {
@@ -250,7 +250,7 @@ p.small {
 	padding: 0px 20px;
 	height: 100px;
 	width: 94px;
-	font-size: 68px;
+	font-size: 4.15em;
 	text-align: center;
 }
 
@@ -262,8 +262,7 @@ p.small {
 	height: 43px;
 	width: 94px;
 	text-align: center;
-	font-size: 13px;
-	line-height: 18px;
+	font-size: .85em;
 	padding: 16px 20px;
 	-webkit-border-bottom-right-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
