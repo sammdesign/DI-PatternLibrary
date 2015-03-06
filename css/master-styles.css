@@ -201,7 +201,6 @@ p.small {
 	color: #4e4e4e;
 }
 
-ul.box-bullet-list
 
 
 /*
@@ -329,13 +328,103 @@ ul.box-bullet-list
 }
 
 
-.color-values:nth-child(2) {
+
+.base-blue-card {
+	border-top: 100px solid #005990;
+    border-right: 134px solid #005082;
+}
+
+.base-gray-card {
 	border-top: 100px solid #4E4E4E;
     border-right: 134px solid #464646;
 }
 
-li:nth-child(1).div:nth-of-type(1) {
-	border-top: 100px solid #4E4E4E;
-    border-right: 134px solid #464646;
+.black-card {
+	border-top: 100px solid #000000;
+    border-right: 134px solid #000000;
 }
 
+.white-card {
+	border-top: 100px solid #FFFFFF;
+    border-right: 134px solid #FFFFFF;
+}
+
+.gray1-card {
+	border-top: 100px solid #f3f3f3;
+    border-right: 134px solid #f3f3f3;
+}
+
+.gray2-card {
+	border-top: 100px solid #dedddd;
+    border-right: 134px solid #dedddd;
+}
+
+.gray3-card {
+	border-top: 100px solid #bababa;
+    border-right: 134px solid #bababa;
+}
+
+.gray4-card {
+	border-top: 100px solid #757576;
+    border-right: 134px solid #757576;
+}
+
+.gray5-card {
+	border-top: 100px solid #4e4e4e;
+    border-right: 134px solid #4e4e4e;
+}
+
+.gray6-card {
+	border-top: 100px solid #333333;
+    border-right: 134px solid #333333;
+}
+
+.no-change-card {
+	border-top: 100px solid #bababa;
+    border-right: 134px solid #a7a7a7;
+}
+
+.increase-card {
+	border-top: 100px solid #8ab64b;
+    border-right: 134px solid #7ca444;
+}
+
+.decrease-card {
+	border-top: 100px solid #f78c1e;
+    border-right: 134px solid #de7e1b;
+}
+
+.incorrect-card {
+	border-top: 100px solid #f05323;
+    border-right: 134px solid #d84b20;
+}
+
+.correct-card {
+	border-top: 100px solid #4daf4a;
+    border-right: 134px solid #459e43;
+}
+
+.dove-card {
+	border-top: 100px solid #2c98d4;
+    border-right: 134px solid #2889bf;
+}
+
+.dovish-card {
+	border-top: 100px solid #85d5f7;
+    border-right: 134px solid #78c0de;
+}
+
+.centrist-card {
+	border-top: 100px solid #e1f3f7;
+    border-right: 134px solid #cadbde;
+}
+
+.hawkish-card {
+	border-top: 100px solid #ffd181;
+    border-right: 134px solid #e6bc74;
+}
+
+.hawk-card {
+	border-top: 100px solid #f57f20;
+    border-right: 134px solid #dc721d;
+}
