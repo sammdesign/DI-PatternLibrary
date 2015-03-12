@@ -27,7 +27,6 @@ h3 {margin: 15px 0px 15px 0px}
 }
 
 
-
 /**** Page Structure ****/
 
 header.main {
@@ -105,13 +104,13 @@ nav a:hover {
 
 .left-col	{
 	float: left;
-	width: 500px;
-	margin: 50px 104px 50px 0px;
+	width: 46%;
+	margin: 50px 50px 50px 0px;
 }
 
 .right-col	{
 	float: left;
-	width: 500px;
+	width: 46%;
 	margin: 50px 0px;
 }
 
@@ -421,4 +420,31 @@ p.small {
 .hawk-card {
 	border-top: 100px solid #f57f20;
     border-right: 132px solid #dc721d;
+
+
+/* Alert Styles*/
+}
+
+.alert-bar {
+	width:100%;
+	height: 60px;
+	padding: 16px 16px 16px 80px;
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+
+
+.incorrect {
+	background: #F05323 url("../images/IncorrectIcon.png") no-repeat 25px center;
+}
+
+.correct {
+	background: #4daf4a url("../images/CorrectIcon.png") no-repeat 25px center;
+}
+
+.alert {
+	background: #4E4E4E url("../images/AlertIcon.png") no-repeat 25px center;
 }
