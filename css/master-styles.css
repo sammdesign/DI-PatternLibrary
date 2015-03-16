@@ -181,6 +181,10 @@ nav a:hover {
 	margin: 5px 0;
 }
 
+.lib-label {
+	margin: 20px 0 10px 0;
+}
+
 
 .stripe	{
 	width: 100%;
@@ -557,3 +561,108 @@ p.small {
 	margin-bottom: 100px;
 
 }
+
+
+
+/* Button Styles*/
+
+
+.primary-button {
+	width: 140px;
+	height: 40px;
+	color: #ffffff;
+	border: 2px solid #bababa;
+	font-size: 16px;
+	background-color: #005990;
+}
+
+
+.primary-button:hover {
+	background-color: #005082;
+
+}
+
+
+
+.secondary-button {
+	width: 94px;
+	height: 32px;
+	color: #333333;
+	border: 2px solid #bababa;
+	font-size: 16px;
+	background: #e8e8e8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e8e8e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e8e8e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e8e8e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#e8e8e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e8e8e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e8e8e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.secondary-button:hover {
+	background: #e8e8e8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e8e8e8 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e8e8e8 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e8e8e8 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e8e8e8 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e8e8e8 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.level-left-button {
+	width: 40px;
+	height: 40px;
+	color: #ffffff;
+	border: 2px solid #bababa;
+	font-size: 16px;
+	background-color: #11683A;
+}
+
+
+.level-left-button:hover {
+	background-color: #0F5E34;
+}
+
+.level-middle-button {
+	width: 94px;
+	height: 40px;
+	color: #ffffff;
+	border: 2px solid #bababa;
+	font-size: 16px;
+	background-color: #11683A;
+}
+
+
+.level-right-button:hover {
+	background-color: #0F5E34;
+}
+
+.level-right-button {
+	width: 40px;
+	height: 40px;
+	color: #ffffff;
+	border: 2px solid #bababa;
+	font-size: 16px;
+	background-color: #11683A;
+}
+
+
+.level-middle-button:hover {
+	background-color: #0F5E34;
+}
+
+
+
+
+
+
+
+
+
+
